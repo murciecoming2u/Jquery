@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8" lang="en">
 	<title>jquery Js Link Attach file sytem</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="jquery.linkit.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('span').linkIt({
+				href: 'https://google.com',
+				text:"Click here to google"
+			});
+		});
+	</script>
 </head>
 <body>
 <h1>Demo linkIt</h1>
-<p>Convert into a link.</p>
+<p>Convert into a <span>link.</span></p>
 </body>
 </html>

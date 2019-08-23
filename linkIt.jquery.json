@@ -1,0 +1,22 @@
+{
+	"name":"LinkIt",
+	"title": "Jquery plugin",
+	"description": "A simple jquery functionality to convert any TEXT element into a link",
+
+	"keywors": ["link", "convert", "text"],
+
+	"version": "0.1.0",
+
+	"author": {"name":"xwili", "website":"No Website Available"},
+
+	"maintainers": ["xwil", "wilx", "pos4e"],
+
+	"licenses": ["MIT", "GNU"],
+
+	"bugs": "https://jquery.com/bugs",
+	"docs": "https://jquery.com/docs",
+	"info": "https://jquery.com/info",
+
+	"dependecies" : "None"
+
+}
